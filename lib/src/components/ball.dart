@@ -25,6 +25,7 @@ class Ball extends CircleComponent
             children: [CircleHitbox()]);
 
   final Vector2 velocity;
+  
   final double difficultyModifier;
 
   @override
